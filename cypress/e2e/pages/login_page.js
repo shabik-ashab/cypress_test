@@ -1,5 +1,5 @@
 
-export class loginPage{
+export class LoginPage{
 
     enterUserName(){
         cy.get(':nth-child(2) > .oxd-input-group > :nth-child(2) > .oxd-input').type('Admin')
