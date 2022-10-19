@@ -25,5 +25,11 @@ it('assertion', ()=> {
 
     // chaining assertion with add
 
+    // explit assertion
+    expect(true).to.be.true
+
+    assert.equal(4,4,'Not equal')
+    // assert.strictEqual(4,'4','not equal')
+
 
 })
