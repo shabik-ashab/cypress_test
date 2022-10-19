@@ -7,8 +7,8 @@ it('pom',()=> {
 
     cy.visit("https://opensource-demo.orangehrmlive.com/")
 
-    loginPage.enterUserName();
-    loginPage.enterPassword();
+    loginPage.enterUserName('Admin');
+    loginPage.enterPassword('admin123');
     loginPage.clickLogin();
 
     // cy.get(':nth-child(2) > .oxd-input-group > :nth-child(2) > .oxd-input').type('Admin')
